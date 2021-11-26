@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="rgba(34, 34, 34, 0.651)">
+    <title>Kafle</title>
+    <link rel="shortcut icon" href="/img/favicon/smile-wink-regular.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/pc.css">
+    <link rel="stylesheet" media="screen and (max-width: 864px)" href="css/phone.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <script src="https://kit.fontawesome.com/b574d60c86.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- opening typing animation -->
+    <div class="opening">
+        <div id="text">
+        </div>
+    </div>
+
+    <!-- USER SPENDS 1 minutes -->
+    <div id="wowcont">
+        <div id="wow">
+            <div id="wowexit" onclick="wowexit()">
+                <i class="fas fa-times dark"></i>
+            </div>
+            <div class="wowh1 greycolor">
+                <h1 class="dark" id="wowtext greycolor">wow !!!</h1>
+            </div>
+            <div class="wowinfodiv">
+                <!-- stewie dance -->
+                <div id="wowimgdiv">
+                    <img src="img/self/stewie-dance.gif" alt="" srcset="">
+                </div>
+                <!-- message for user -->
+                <div class="wowmessage">
+                    <p class="dark textcenter greycolor">
+                        you've spent more than one minute in my website.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  -->
+    <!-- hamburger content -->
+    <div class="hamburgercont">
+        <i class="fas fa-times dark greycolor" onclick="hamexit()"></i>
+        <a href="#portfolio" onclick="hamexit()">
+            <h1 class="dark textcenter smallhead greycolor">
+                home
+            </h1>
+        </a>
+
+        <a href="#work" onclick="hamexit()">
+            <h1 class="dark textcenter  smallhead greycolor">
+                work
+            </h1>
+        </a>
+
+        <a href="#contactformdiv" onclick="hamexit()">
+            <h1 class="dark textcenter  smallhead greycolor">
+                contact
+            </h1>
+        </a>
+    </div>
+
+
+    <!-- content -->
+    <div id="portfolio">
+        <div class="firstpage">
+            <!-- main container of the page  -->
+            <div class="main" id='main'>
+                <!-- dark mode button -->
+                <div id="buttondiv">
+                    <h5 id='button' onclick="daynight()"><b><i class="far fa-lightbulb"></i></b></h5>
+                </div>
+
+                <!-- opening content of the page  -->
+                <!-- lord knows why i gave it a class of main img -->
+                <div class="mainimg" id='mainimg'>
+                    <img src="/img/self/self.gif" alt="" srcset="">
+                    <div id="contactdiv">
+                        <a href="https://www.facebook.com/69.kundan" target="_blank">
+                            <i class="fab fa-facebook-f dark"></i>
+                        </a>
+                        <a href="https://www.instagram.com/69_kundan/" target="_blank">
+                            <i class="fab fa-instagram dark"></i>
+                        </a>
+                        <a href="https://github.com/KafleKundan" target="_blank">
+                            <i class="fab fa-github dark"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/kaflekundan/" target="_blank">
+                            <i class="fab fa-linkedin-in dark"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="title">
+                    <h1 class="dark aboutmetitle" id="aboutmecont">
+                        <span id="aboutmetitle" class="dark smallhead">
+                            HELLO 
+                            <br>
+                            I AM KAFLE  
+                            <span class="smilleyfix">
+                                ;)
+                            </span>
+                        <br>
+                        <!-- clickme is visible in mobile mode only -->
+                        <span class="clickme">
+                            click above 
+                            <i class="fas fa-arrow-up dark greycolor textcenter"></i>
+                        </span>
+                        <!-- whem user hovers mouse over here this is displayed -->
+                        </span>
+                        <span class="dark smalltext" id="aboutmepara">
+                            -UI designer
+                            <br>
+                            -Frontend Developer
+                            <br>
+                            <br>
+                            <div class="aboutmeparaanchor">
+                            <a href="mailto:kundankafle1998@gmail.com">
+                                <i class="far fa-envelope dark actionbuttons "></i>
+                            </a> 
+                            <a href="tel:+9779804020723">
+                                <i class="fas fa-phone dark actionbuttons borders"></i>
+                            </a> 
+                            <a href="/cv/cv.pdf" download="">
+                                <i class="far fa-file dark actionbuttons" id = 'cv'></i>
+                            </a>
+                        </div>
+                        </span>
+                    </h1>
+                </div>
+            </div>
+            <!-- suggest user to go down -->
+            <div class="exploremore">
+                <img src="img/gif/point-down.gif" alt="" srcset="">
+            </div>
+        </div>
+
+        <!-- navigation part -->
+        <section>
+            <div class="navigation">
+                <!-- Name -->
+                <div class="logo">
+                    <a href="#portfolio" style="text-decoration: none;">
+                        <h1 id="logotext" class="light dark">
+                            KAFLE
+                        </h1>
+                    </a>
+                </div>
+                <!-- hamburger menu for mobile -->
+                <div class="hamburger" onclick="ham()">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <!-- only seen in pc  -->
+                <div class="navbar">
+                    <h1>
+                        <span class="tooltiptext ">home</span>
+                        <a data-title="दुर्योन" class="dark" href="#portfolio">दुर्योन</a>
+                    </h1>
+                    <h1>
+                        <span class="tooltiptext ">work</span>
+                        <a data-title="कर्मन्" class="dark" href="#work">कर्मन्</a>
+                    </h1>
+                    <h1>
+                        <span class="tooltiptext ">contact</span>
+                        <a data-title="सम्पर्क" class="dark" href="#contactformdiv">सम्पर्क</a>
+                    </h1>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- myself / my personality  -->
+        <div class="myselfcont">
+            <h1 class="dark h1small textcenter greycolor">
+                ABOUT
+            </h1>
+            <div class="definingmyself">
+                <div class="improving definingmyselfbox hover boxshadow">
+                    <div>
+                        <i class="fas fa-book-reader dark textcenter"></i>
+                        <h3 class="dark textcenter   greycolor">
+                            Always Improving
+                        </h3>
+                    </div>
+                    <p class="dark textcenter greycolor smalltext">
+                        I tend to spend my days studying and learning new skills. I believe in improvising, evolving and adapting to change. As my skills upgrade I would constantly be upgrading this site.
+                    </p>
+                </div>
+                <div class="tea definingmyselfbox hover">
+                    <div>
+                        <i class="fas fa-mug-hot dark textcenter greycolor"></i>
+                        <h3 class="dark textcenter  greycolor">
+                            Fuled By Tea
+                        </h3>
+                    </div>
+                    <p class="dark textcenter greycolor smalltext ">
+                        Although I am friendly, tea only seems to be my true best friend. It gives me drive and power making me hungry to devour. putting me to work for hours to execute the idea of our's.
+                    </p>
+                </div>
+
+                <div class="akward definingmyselfbox hover">
+                    <div>
+                        <i class="fas fa-code dark textcenter  greycolor"></i>
+                        <h3 class="dark textcenter  greycolor">
+                            Akward And Obsessive
+                        </h3>
+                    </div>
+                    <p class="dark textcenter greycolor smalltext ">
+                        I get bit obsessive towards my work which people find pretty akward.Once I get into something I really get into it. I am always willing to go out of my comfort zone to get my problem solved.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- skills  -->
+        <div class="skills">
+            <h1 class="dark h1small textcenter greycolor">
+                Skills
+            </h1>
+            <div>
+                <i class="fab fa-html5 dark greycolor"></i>
+                <i class="fab fa-css3-alt dark greycolor"></i>
+                <i class="fab fa-js-square dark greycolor"></i>
+                <i class="fab fa-python dark greycolor"></i>
+            </div>
+        </div>
+
+
+        <!-- work -->
+        <div class="work" id="work">
+            <div class="workheader">
+                <h3 class="dark">Projects</h3>
+                <p class="dark">
+                    Some of my sins
+                    <span class="smilleyfix">;)</span>
+                </p>
+            </div>
+            <!-- main workbox container -->
+            <div class="workboxcontainer">
+                <div class="workbox hover">
+                    <div class="workboxhead">
+                        <h1 class="dark textcenter h1small">
+                            Edamam API
+                        </h1>
+                    </div>
+                    <div class="workboximg">
+                        <img src="/img/edamamapi/edamamapi.jpg" alt="image" srcset="">
+                    </div>
+                    <div class="workboxdesc">
+                        <button>
+                            <a href="https://kaflekundan.github.io/know-your-food/" target="_blank">
+                                LIVE
+                            </a>
+                        </button>
+                        <button>
+                            <a href="https://github.com/KafleKundan/know-your-food" target="_blank">
+                                GITHUB</a></button>
+                        <h3 class="dark h3small">SKILLS USED</h3>
+                        <ul>
+                            <li class="dark h3small">HTML</li>
+                            <li class="dark h3small">CSS</li>
+                            <li class="dark h3small">JAVASCRIPT</li>
+                        </ul>
+                        <p class="dark textcenter smalltext">An app that gives the amount of calorie and the cusine type of your favourite food.</p>
+                    </div>
+                </div>
+                <div class="workbox hover">
+                    <div class="workboxhead ">
+                        <h1 class="dark h1small">Mithonagar</h1>
+                    </div>
+                    <div class="workboximg">
+                        <img src="/img/edamamapi/mithonagar.jpg" alt="image" srcset="">
+                    </div>
+                    <div class="workboxdesc">
+                        <button><a href="http://kaflekundan.github.io/mithonagar/" target="_blank">LIVE</a></button>
+                        <button><a href="https://github.com/KafleKundan/mithonagar" target="_blank">GITHUB</a></button>
+                        <h3 class="dark h3small">SKILLS USED</h3>
+                        <ul>
+                            <li class="dark h3small">HTML</li>
+                            <li class="dark h3small">CSS</li>
+                        </ul>
+                        <p class="dark textcenter smalltext">Demo design of a food delivery app.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- contact form -->
+        <div class="contactformcontainer">
+            <div class="contactformdiv borders hover" id="contactformdiv">
+                <h1 class="h1small textcenter dark greycolor">
+                    Contact
+                </h1>
+                <div class="success borders">
+                    <p class="greycolor dark textcenter">
+                        Email was successfully sent
+                    </p>
+                </div>
+                <div class="contactform">
+                    <div class="name">
+                        <input type="text" placeholder="enter your name">
+                    </div>
+                    <div class="email">
+                        <input type="email" placeholder="enter your email">
+                    </div>
+                    <div class="message">
+
+                        <textarea name="message" id="" cols="10" rows="20" placeholder="enter your message"></textarea>
+                    </div>
+                    <button id="annoyingbutton" class="dark h3small border" onclick="sendMail()">Submit</button>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <!-- dont touch it -->
+    <!-- for email -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("user_faRQIvTeYnQ1xD4jMku4V");
+        })();
+    </script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

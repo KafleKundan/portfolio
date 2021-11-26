@@ -1,0 +1,223 @@
+/*  */
+
+body {
+    overflow-x: hidden;
+}
+
+.smallhead {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+.smalltext {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.clickme {
+    display: block;
+    font-size: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.clickme i {
+    font-size: 0.9rem;
+}
+
+
+/*  */
+
+.opening #text {
+    font-size: 0.9rem;
+}
+
+
+/*  */
+
+.main {
+    width: 99vw;
+    height: 87vh;
+}
+
+#aboutmepara {
+    font-size: 0.8rem;
+    margin-right: 10px;
+}
+
+.aboutmeparaanchor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.actionbuttons {
+    padding: 0;
+}
+
+#aboutmepara a i {
+    font-size: 0.8rem;
+    padding: 5px;
+}
+
+.title {
+    padding-right: 5px;
+    margin: 10px;
+}
+
+#buttondiv {
+    margin: 0;
+    top: 0;
+    left: 4px;
+}
+
+.navigtion {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+#mainimg {
+    /* width: 3rem; */
+    margin: 0;
+}
+
+#mainimg img {
+    width: 10rem;
+    height: 100%;
+}
+
+#contactdiv {
+    display: flex;
+    flex-direction: column;
+    /* margin: 1rem 0 1rem 1rem; */
+}
+
+.navbar {
+    display: none;
+}
+
+
+/*  */
+
+.myselfcont {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.definingmyself {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.definingmyselfbox {
+    height: fit-content;
+    font-size: 1rem;
+    margin: 20px 0;
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+}
+
+
+/* skills */
+
+.skills div {
+    flex-direction: row;
+    margin: 10px 0px;
+}
+
+.skills div i {
+    font-size: 2.5rem;
+    margin: 20px 0.7rem;
+}
+
+
+/*  */
+
+.workboxcontainer {
+    margin: 0 1rem;
+}
+
+
+/* contactform */
+
+.contactformcontainer {
+    height: 60vh;
+    width: 100vw;
+}
+
+#contactformdiv {
+    margin-bottom: 60px;
+    width: 90vw;
+}
+
+.contactform .message textarea {
+    margin: 5px;
+}
+
+
+/*  */
+
+.hamburger {
+    display: block;
+}
+
+.hamburgercont {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 99vw;
+    height: 90vh;
+    background-color: transparent;
+    position: absolute;
+    margin: auto;
+}
+
+.hamburgercont i {
+    font-size: 2rem;
+    position: absolute;
+    top: 15px;
+    right: 5px;
+}
+
+.hamburgercont a {
+    text-decoration: none;
+}
+
+
+/*  */
+
+@media screen and (max-width: 320px) {
+    .contactformcontainer {
+        height: 75vh;
+    }
+    .myselfcont {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .definingmyself {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .definingmyselfbox {
+        display: block;
+        margin: 20px auto;
+        width: 80%;
+    }
+    #contactdiv {
+        margin: 0;
+    }
+    .mainimg {
+        width: 40vw;
+    }
+}
