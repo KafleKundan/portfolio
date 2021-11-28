@@ -21,7 +21,7 @@ function typing() {
         }
     }
 }
-typing();
+
 
 
 
@@ -164,3 +164,9 @@ function hamexit() {
 
 
 }
+
+
+
+// typing animation and darkmode
+daynight();
+typing();
