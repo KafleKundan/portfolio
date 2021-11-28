@@ -146,7 +146,7 @@ body {
 /* contactform */
 
 .contactformcontainer {
-    height: 60vh;
+    height: fit-content;
     width: 100vw;
 }
 
